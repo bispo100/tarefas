@@ -1,13 +1,45 @@
-
-#tarefas_lista{
-    background-color: blue;
+body{
+    text-align:center;
+    background-color: rgb(17, 92, 92);
+    color:rgb(176, 18, 160)
+    
 }
 
-
-
-
-.colorir {
+#tarefas_lista{
+    background-color: black;
+    align-items: center;
+}
+.tarefa_item {
     text-decoration: line-through;
     color: red;
-    font-weight: bold;
+    font-size: 30px;
+    
+}
+.btn_completar{
+    color:green;
+    background-color: chartreuse;
+    font-size: 30px;
+}
+.btn_deletar{
+    color: plum;
+    background-color: crimson;
+    font-size: 30px;
+}
+.erro_msg {
+    color: darkblue; 
+    font-size: 30px;
+}
+.button{
+    color: rgba(86, 11, 47, 0.322);
+    background-color: aqua;
+    font-size: 30px;
+}
+.input{
+    font-size: 30px;
+    text-align-last: center;
+}
+
+li{
+    font-size: 30px;
+    text-align:end;
 }
